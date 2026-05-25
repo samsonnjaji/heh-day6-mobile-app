@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Homeland Jobs Mobile",
+    "slug": "heh-day6-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "org.homelandhub.day6"
+    }
+  }
+}

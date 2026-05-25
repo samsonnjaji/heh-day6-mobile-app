@@ -1,0 +1,210 @@
+export const JOBS = [
+  {
+    id: "job-001",
+    title: "React Native Developer",
+    employer: "Savanna Digital",
+    category: "Mobile",
+    budget: 48000,
+    location: "Nairobi",
+    postedDate: "Today",
+    skills: ["React Native", "Expo", "APIs"],
+    description: "Build mobile screens for a marketplace app, connect mock APIs, and polish the mobile UX for low-end Android devices.",
+    deadline: "7 days",
+    status: "open"
+  },
+  {
+    id: "job-002",
+    title: "Frontend UI Designer",
+    employer: "Mtaa Works",
+    category: "Design",
+    budget: 25000,
+    location: "Kisumu",
+    postedDate: "1 day ago",
+    skills: ["Figma", "UI", "CSS"],
+    description: "Design a clean mobile-first interface for a local services product with reusable design components.",
+    deadline: "5 days",
+    status: "open"
+  },
+  {
+    id: "job-003",
+    title: "Laravel API Developer",
+    employer: "LakeHub Labs",
+    category: "Backend",
+    budget: 60000,
+    location: "Kisumu",
+    postedDate: "2 days ago",
+    skills: ["Laravel", "MySQL", "REST"],
+    description: "Create secure REST endpoints for user profiles, job posting, and payment records.",
+    deadline: "10 days",
+    status: "open"
+  },
+  {
+    id: "job-004",
+    title: "Social Media Campaign Manager",
+    employer: "Blue Coast Agency",
+    category: "Marketing",
+    budget: 18000,
+    location: "Mombasa",
+    postedDate: "2 days ago",
+    skills: ["Content", "Meta Ads", "Canva"],
+    description: "Run a short campaign for a new food delivery brand and report weekly performance.",
+    deadline: "14 days",
+    status: "open"
+  },
+  {
+    id: "job-005",
+    title: "Data Entry Assistant",
+    employer: "Homeland Admin",
+    category: "Admin",
+    budget: 12000,
+    location: "Nakuru",
+    postedDate: "3 days ago",
+    skills: ["Excel", "Accuracy", "Typing"],
+    description: "Clean and enter marketplace records into a structured spreadsheet template.",
+    deadline: "4 days",
+    status: "open"
+  },
+  {
+    id: "job-006",
+    title: "WordPress Website Setup",
+    employer: "Kijiji Tours",
+    category: "Web",
+    budget: 35000,
+    location: "Nairobi",
+    postedDate: "3 days ago",
+    skills: ["WordPress", "SEO", "Hosting"],
+    description: "Set up a responsive WordPress site for a tours business and configure basic SEO.",
+    deadline: "9 days",
+    status: "open"
+  },
+  {
+    id: "job-007",
+    title: "Flutter Bug Fixes",
+    employer: "Tujenge Apps",
+    category: "Mobile",
+    budget: 40000,
+    location: "Eldoret",
+    postedDate: "4 days ago",
+    skills: ["Flutter", "Dart", "Firebase"],
+    description: "Fix navigation bugs, improve forms, and test Android release build stability.",
+    deadline: "6 days",
+    status: "open"
+  },
+  {
+    id: "job-008",
+    title: "Copywriter for Job Platform",
+    employer: "Career Bridge",
+    category: "Writing",
+    budget: 15000,
+    location: "Remote",
+    postedDate: "4 days ago",
+    skills: ["Copywriting", "SEO", "Editing"],
+    description: "Write landing page copy, onboarding text, and short email templates for freelancers.",
+    deadline: "5 days",
+    status: "open"
+  },
+  {
+    id: "job-009",
+    title: "Node.js Backend Fixes",
+    employer: "PayLink Africa",
+    category: "Backend",
+    budget: 70000,
+    location: "Nairobi",
+    postedDate: "5 days ago",
+    skills: ["Node.js", "JWT", "PostgreSQL"],
+    description: "Review authentication, fix role permissions, and add tests for payment endpoints.",
+    deadline: "8 days",
+    status: "open"
+  },
+  {
+    id: "job-010",
+    title: "Logo and Brand Kit",
+    employer: "Mama Mboga Online",
+    category: "Design",
+    budget: 22000,
+    location: "Nakuru",
+    postedDate: "5 days ago",
+    skills: ["Branding", "Illustrator", "Canva"],
+    description: "Create a simple brand identity pack for a fresh grocery delivery concept.",
+    deadline: "6 days",
+    status: "open"
+  },
+  {
+    id: "job-011",
+    title: "QA Tester for Android App",
+    employer: "Rift Tech",
+    category: "QA",
+    budget: 20000,
+    location: "Eldoret",
+    postedDate: "6 days ago",
+    skills: ["Testing", "Android", "Bug Reports"],
+    description: "Test core app flows and write clear bug reports with screenshots and reproduction steps.",
+    deadline: "3 days",
+    status: "open"
+  },
+  {
+    id: "job-012",
+    title: "Google Sheets Automation",
+    employer: "Nairobi Tutors",
+    category: "Automation",
+    budget: 30000,
+    location: "Remote",
+    postedDate: "1 week ago",
+    skills: ["Sheets", "Apps Script", "Automation"],
+    description: "Automate student tracking, payment reminders, and simple dashboard summaries.",
+    deadline: "8 days",
+    status: "open"
+  },
+  {
+    id: "job-013",
+    title: "Product Photographer",
+    employer: "Soko Local",
+    category: "Media",
+    budget: 28000,
+    location: "Mombasa",
+    postedDate: "1 week ago",
+    skills: ["Photography", "Editing", "Lighting"],
+    description: "Take and edit product photos for a local commerce catalogue.",
+    deadline: "4 days",
+    status: "open"
+  },
+  {
+    id: "job-014",
+    title: "Customer Support VA",
+    employer: "Duka Desk",
+    category: "Support",
+    budget: 16000,
+    location: "Remote",
+    postedDate: "1 week ago",
+    skills: ["WhatsApp", "CRM", "English"],
+    description: "Handle customer questions, classify support requests, and escalate urgent issues.",
+    deadline: "14 days",
+    status: "open"
+  },
+  {
+    id: "job-015",
+    title: "API Documentation Writer",
+    employer: "FinEdge Kenya",
+    category: "Writing",
+    budget: 38000,
+    location: "Nairobi",
+    postedDate: "1 week ago",
+    skills: ["APIs", "Markdown", "Technical Writing"],
+    description: "Document endpoints, request/response examples, authentication rules, and errors.",
+    deadline: "7 days",
+    status: "open"
+  }
+];
+
+export const MOCK_PROPOSALS = [
+  { id: "p1", title: "React Native Developer", employer: "Savanna Digital", status: "Pending" },
+  { id: "p2", title: "Logo and Brand Kit", employer: "Mama Mboga Online", status: "Viewed" },
+  { id: "p3", title: "WordPress Website Setup", employer: "Kijiji Tours", status: "Accepted" },
+  { id: "p4", title: "Data Entry Assistant", employer: "Homeland Admin", status: "Rejected" }
+];
+
+export const MOCK_CONVERSATIONS = [
+  { id: "c1", name: "Savanna Digital", last: "Thanks, we have accepted your proposal." },
+  { id: "c2", name: "Kijiji Tours", last: "Can you share your portfolio link?" },
+  { id: "c3", name: "Homeland Support", last: "Your profile verification is under review." }
+];

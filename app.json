@@ -10,9 +10,20 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "org.homelandhub.day6"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66bffebc-9438-40a4-adf7-e3d47606b254"
+      }
+    },
+    "owner": "sibona",
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

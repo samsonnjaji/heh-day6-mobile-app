@@ -33,7 +33,7 @@ npm run android
 
 - GitHub Repository: https://github.com/samsonnjaji/heh-day6-mobile-app
 - Expo QR Evidence: see `submission-evidence/qr desktop screenshot.png`
-- Android APK Download Link: Pending EAS authentication and cloud build.
+- Android APK Download Link: https://expo.dev/artifacts/eas/v4gcHbfEVNxRRM2FNk8GJp.apk
 
 To generate the APK link, log in locally with Expo/EAS and run:
 

@@ -3,6 +3,8 @@
 Candidate: NJAJI SIBONA  
 Candidate ID: HEH/DK1/010
 
+GitHub Repository: https://github.com/samsonnjaji/heh-day6-mobile-app
+
 ## Overview
 
 This is the Day 6 Mobile Development practical build for Homeland Ecosystem Hub. The project is an Expo React Native mobile app that implements a job feed, job detail screen, M-Pesa escrow simulation, bottom tab navigation, mock applications, messages, chat, and profile/theme switching.
@@ -26,6 +28,21 @@ Then scan the Expo QR code using Expo Go on Android, or run:
 ```bash
 npm run android
 ```
+
+## Submission Links
+
+- GitHub Repository: https://github.com/samsonnjaji/heh-day6-mobile-app
+- Expo QR Evidence: see `submission-evidence/qr desktop screenshot.png`
+- Android APK Download Link: Pending EAS authentication and cloud build.
+
+To generate the APK link, log in locally with Expo/EAS and run:
+
+```bash
+npx eas-cli login
+npx eas-cli build -p android --profile preview
+```
+
+The `preview` EAS profile is configured to build an Android APK.
 
 ## Features Implemented
 
